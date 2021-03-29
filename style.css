@@ -1,0 +1,86 @@
+.bg-cover {
+	margin-top: 20px;
+	position: relative;
+	color: #e4dede;
+	font-style: italic;
+	font-weight: bold;
+	background-color: black;
+}
+.bg-content {
+	z-index: 1;
+	position: relative;
+}
+
+.bg-cover:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background-image: url("./img/1727361.jpg");
+	opacity: 0.5;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.p {
+	font-weight: 900;
+	background-clip: url("https://www.noaa.gov/sites/default/files/styles/crop_394x394/public/thumbnails/image/FocusArea__Weather-02.jpg?itok=fO6wu2A8");
+}
+.logo {
+	max-width: 50%;
+	margin: 0 auto 10px;
+}
+
+.input-group {
+	position: static;
+	width: 30%;
+}
+
+.ul {
+	position: static;
+}
+
+.w3-card {
+	position: float right;
+	padding-left: 150%;
+}
+/*picture for backgrounf*/
+.restaurant-container:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background-image: url("http://www.allwhitebackground.com/images/6/Sandwich-Background-Pictures.jpg");
+	opacity: 0.5;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.restaurant-container {
+	position: relative;
+	min-height: 800px;
+}
+.restaurant-content {
+	z-index: 1;
+	position: relative;
+	color: black;
+	font-style: italic;
+}
+
+.weather-container {
+	background-color: rgb(66, 74, 75);
+}
+.timeNow {
+	background-color: white;
+	color: #212e38;
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
+}
+
+.weatherColumn {
+	background-color: #f8eeee;
+	margin: 0%;
+	padding: 5px;
+	height: 110px;
+}
