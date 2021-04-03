@@ -50,7 +50,7 @@ $(document).ready(function () {
 
 	function restaurantCall(lon, lat) {
 		$("#rest-box").empty();
-		$("#sel-trn").empty();
+		$("#select-train").empty();
 		
 
 		const zCall = {
@@ -73,7 +73,7 @@ $(document).ready(function () {
 
 				// Create div to hold restaurant information
 				var restDiv = $("<div>");
-				restDiv.css("margin", "5 px");
+				restDiv.css("margin", "5px");
 				restDiv.css("background-color", "#d29a34");
 				restDiv.css("border", "solid rgb(70, 155, 216) 2px");
 				restDiv.css("border-radius", "10px"); //border-radius: 10px;
@@ -139,7 +139,7 @@ $(document).ready(function () {
 			var currentStation = $("<h4>");
 			currentStation.attr("class", "station");
 			currentStation.attr("id", "cur-sta");
-			//currentStation.css("background-color", "#469bd8");
+			
 			currentStation.css("color", "white");
 			currentStation.css("text-align", "center");
 			currentStation.text(stationSelected.toUpperCase() + " STATION");
